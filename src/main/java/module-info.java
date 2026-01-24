@@ -10,6 +10,7 @@ module com.sky.lms {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires java.sql;
 
     opens com.sky.lms to javafx.fxml;
     exports com.sky.lms;

@@ -9,6 +9,10 @@
 
     public class HelloController {
         @FXML
+
+        public TextField bookName;
+        public TextField isbn;
+        public TextArea bookDescription;
         public TableView<Book> tableView;
         public TableColumn<Book, String> bookNameColumn;
         public TableColumn<Book,String> descriptionColumn;
@@ -29,12 +33,16 @@
                     new ReadOnlyStringWrapper(
                             cell.getValue().getIsbn())
             );
+        }
 
-            tableView
-                    .getItems()
-                    .add(new Book(1,
-                            "Test title",
-                            "Test description",
-                            "2026-00001"));
+        public void onAddBookEvent(ActionEvent actionEvent) {
+            var count = (int) tableView.getItems().size();
+            count++;
+
+            var name = bookName.getText();
+            var description = bookDescription.getText();
+            var isbnText = isbn.getText();
+            var book = new Book(count, name, description, isbnText);
+            tableView.getItems().add(book);
         }
     }

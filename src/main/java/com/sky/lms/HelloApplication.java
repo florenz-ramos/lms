@@ -16,7 +16,7 @@ public class HelloApplication extends Application {
         int HEIGHT = 600;
 
         var resource = HelloController.class
-                .getResource("hello-view.fxml");
+                .getResource("database-connection.fxml");
 
         FXMLLoader fxmlLoader = new FXMLLoader(resource);
         Scene scene = new Scene(fxmlLoader.load(), WIDTH, HEIGHT);
