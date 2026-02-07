@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4b3ec77-9329-4e48-9502-47a6569080d6" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/lms/DatabaseConnectionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/sky/lms/database-connection.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/lms/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/lms/DbConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sky/lms/DatabaseConnectionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sky/lms/DatabaseConnectionController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sky/lms/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sky/lms/HelloApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sky/lms/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sky/lms/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/sky/lms/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/sky/lms/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +71,8 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.16666667",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RunManager">
@@ -125,7 +124,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/sky/lms/DatabaseConnectionController.java</url>
-          <line>54</line>
+          <line>68</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
